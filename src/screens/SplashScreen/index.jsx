@@ -8,7 +8,7 @@ const Splash = ({navigation}) => {
   useEffect(() => {
     setTimeout(() => {
       SplashScreen.hide();
-      navigation.navigate('Home');
+      navigation.navigate('Tab');
     }, SPLASH_TIME_OUT);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
